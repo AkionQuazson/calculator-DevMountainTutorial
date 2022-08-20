@@ -28,7 +28,7 @@ reader.question("What would you like to calculate?", function(input){
 		result = num1 / num2;
 	}
 	else if (mathSymbol === "sqrt") {
-		result = Math.sqrt(num1);
+		result = num1**(1/num2);
 	}
 	else if (mathSymbol === "%") {
 		result = num1 % num2;
