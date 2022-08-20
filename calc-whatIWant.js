@@ -10,7 +10,8 @@ const operators = {
 	'-': (a, b)=>{return (a - b)},
 	'*': (a, b)=>{return (a * b)},
 	'/': (a, b)=>{return (a / b)},
-	'sqrt': (a, b)=>{return a**(1/b)},
+	'**': (a, b)=>{return a**(1/b)},
+	'sqrt': (a, b)=>{return Math.sqrt(a)},
 	'%': (a, b)=>{return (a % b)}
 }
 
